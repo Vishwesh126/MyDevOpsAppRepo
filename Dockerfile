@@ -1,3 +1,3 @@
 FROM tomcat
 COPY ./target/demo.war /usr/local/tomcat/webapps/demo.war
-EXPOSE 8090
+EXPOSE 8080
