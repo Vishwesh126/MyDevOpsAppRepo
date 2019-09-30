@@ -1,6 +1,7 @@
 version: "2"
 services:
   atmosphere:
+    image: ubuntu
     build: .
     ports:
       - '8080:8080'
